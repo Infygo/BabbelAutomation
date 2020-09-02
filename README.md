@@ -86,6 +86,7 @@ validates Welcome toast message on Welcome page that is visible on clicking the 
 - invoke appium from the command prompt
 - Open command prompt - change directory to the project path on your machine 
 - Create an emulator in Android Studio - Refer data.properties file in the project under src/main/java/resources -Rename the deviceName(BabbelEmulator) to your deviceName(...)
+- invoke the emulator using command - emulator -avd youremulatorname
 - mvn compile 
 - mvn test 
 
