@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69914" started-at="2020-09-02T17:11:22Z" finished-at="2020-09-02T17:12:32Z">
+    <groups>
+    </groups>
+    <test name="LoginPageTest" duration-ms="33772" started-at="2020-09-02T17:11:22Z" finished-at="2020-09-02T17:11:56Z">
+      <class name="BabbelMobileApp.LoginPageTest">
+        <test-method status="PASS" signature="validUserLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BabbelMobileApp.LoginPageTest@4d518b32]" name="validUserLoginTest" duration-ms="16758" started-at="2020-09-02T17:11:22Z" data-provider="getValidUserData" finished-at="2020-09-02T17:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arthur@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98765]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Arthur-User-Login Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserLoginTest -->
+        <test-method status="PASS" signature="validUserLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BabbelMobileApp.LoginPageTest@4d518b32]" name="validUserLoginTest" duration-ms="16981" started-at="2020-09-02T17:11:39Z" data-provider="getValidUserData" finished-at="2020-09-02T17:11:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[percival@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Percival-User-Login Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserLoginTest -->
+      </class> <!-- BabbelMobileApp.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+    <test name="HomePageTest" duration-ms="17616" started-at="2020-09-02T17:11:56Z" finished-at="2020-09-02T17:12:14Z">
+      <class name="BabbelMobileApp.HomePageTest">
+        <test-method status="PASS" signature="homePageConfirmationTest()[pri:0, instance:BabbelMobileApp.HomePageTest@797b0699]" name="homePageConfirmationTest" duration-ms="17614" started-at="2020-09-02T17:11:56Z" finished-at="2020-09-02T17:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageConfirmationTest -->
+      </class> <!-- BabbelMobileApp.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test name="WelcomePageTest" duration-ms="18019" started-at="2020-09-02T17:12:14Z" finished-at="2020-09-02T17:12:32Z">
+      <class name="BabbelMobileApp.WelcomePageTest">
+        <test-method status="PASS" signature="welcomePageConfirmation()[pri:0, instance:BabbelMobileApp.WelcomePageTest@79c97cb]" name="welcomePageConfirmation" duration-ms="18016" started-at="2020-09-02T17:12:14Z" finished-at="2020-09-02T17:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePageConfirmation -->
+      </class> <!-- BabbelMobileApp.WelcomePageTest -->
+    </test> <!-- WelcomePageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
