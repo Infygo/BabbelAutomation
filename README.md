@@ -58,11 +58,14 @@ tests the forgot password page with an email id to recover the password - valida
 ### *Frameworks used*
 *Appium* 
 - for testing mobile and hybrid applications 
+
 *TestNG*
 - Used in order to cover wider range of test categories 
 - Supports annotations and dataproviders making the framework robust and easily expandable to handle many test cases and suites.
+
 *Log4j*
-- Logging framework used to get the logs of successful and failed tests
+- Logging framework used to get the logs of successful and failed tests.
+
 *Extentreports* 
 - reporting library integratable with TestNG and other testing frameworks 
 - provides enriched and crisp content of reports in form of charts and dashboard 
