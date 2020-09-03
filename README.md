@@ -93,11 +93,14 @@ validates Welcome toast message on Welcome page that is visible on clicking the 
 *Method2* 
 - Download / clone the project from Git 
 - Import project in IDE of your choice 
+- invoke appium from the command prompt
+- Create an emulator in Android Studio - Refer data.properties file in the project under src/main/java/resources -Rename the deviceName(BabbelEmulator) to your deviceName(...)
+- invoke the emulator using command -       emulator -avd youremulatorname
 - Open testng.xml -> Run as TestNG Suite 
 - Open reports folder to view the report generated on test execution and % of tests passed  
 
 #Note
 - Both the automation projects will execute 9 test cases in total (5 web - 4 mobile) 
-- The test cases i have formulated are quite simple and focused mainly on page navigations and assertions of validation messages as nothing in specific was mentioned regarding the test scenarios
+- The test cases i have formulated are quite simple and focused mainly on page navigations and assertions of validation messages as nothing in specific was mentioned regarding the test scenarios in the coding task description 
 - I have made sure all the tests have passed in my execution run and if a test case fails in your execution run kindly go for a rerun
 - In case of any issues/ questions with implementing or executing the test cases in your machine kindly let me know we shall have it fixed 
